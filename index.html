@@ -5,16 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/img/astronomy.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/astronomy.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
     <title>NASA - Astronomy Picture Of the Day</title>
 </head>
 
 <body>
-    <h1>Astronomy Picture Of the Day</h1>
+    <header>
+        <h1>Astronomy Picture Of the Day</h1>
+        <p>Discover the cosmos! Each day a different image or photograph of our fascinating universe
+            is featured, along with a brief explanation written by a professional astronomer.</p>
+    </header>
 
-    <script type="text/javascript" src="./jquery-3.6.0.min.js"></script>
-    <script src="./script.js"></script>
+    <main>
+        <div class="info">
+            <h2 id="picname">Picture Name</h2>
+            <div class="info-title">
+                <h4>00/00/0000</h4>
+            </div>
+            <div class="explanation">
+                <p id="explanation"></p>
+            </div>
+        </div>
+        <div class="media">
+        </div>
+    </main>
+    <footer>
+        <label for="date">Select Date</label>
+        <input min="1995-06-16" id="date" type="date" value="2022-05-2002">
+        <button id="btn">Search</button>
+    </footer>
+
+
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
