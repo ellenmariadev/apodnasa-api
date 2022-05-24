@@ -6,7 +6,7 @@
 
 ### About 
 
- `A different astronomy and space science related image is featured each day, along with a brief explanation.`
+ `A different astronomy and space science related image/video is featured each day, along with a brief explanation.`
 ###  Stack
 - [x] **JavaScript (JQuery)**
 - [x] **CSS**
