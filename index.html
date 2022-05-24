@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="A different astronomy and space science related image is featured each day, along with a brief explanation. From API (Apod - NASA)">
+
     <link rel="shortcut icon" href="./img/astronomy.png" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +18,8 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
     <title>NASA - Astronomy Picture Of the Day</title>
 </head>
 
@@ -26,12 +32,10 @@
 
     <main>
         <div class="info">
-            <h2 id="name">Name</h2>
-            <h4>00/00/0000</h4>
+            <h2 id="name"></h2>
+            <h4></h4>
             <div class="explanation">
-                <p id="explanation"><span>Explanation: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel
-                        reiciendis iusto! Nisi incidunt sint itaque aliquam sapiente cupiditate, dignissimos esse quam
-                        dolore tempora perferendis et impedit? Molestias, placeat nulla.</span></p>
+                <p id="explanation"><span>Explanation:</span></p>
             </div>
         </div>
         <div class="media">
@@ -39,13 +43,10 @@
     </main>
     <footer>
         <label for="date">SELECT DATE</label>
-        <input min="1995-06-16" id="date" type="date" value="2022-05-2002">
+        <input id="date" type="date">
         <button id="btn">Search</button>
     </footer>
 
-
-    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
-    <script src="./js/script.js"></script>
 </body>
 
 </html>
