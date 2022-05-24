@@ -16,12 +16,12 @@ $("#btn").on('click', function() {
             var mediaUrl = response.url
             var mediaType = response.media_type
 
-            $('#picname').html(name)
+            $('#name').html(name)
             $('#date').html(date)
-            $('#explanation').html(`<span>Explanation: </span>` +explanation)
+            $('#explanation').html(`<span>EXPLANATION: </span>` +explanation)
             $('h4').html(date)
 
-            // $('#picname').html(mediaType)
+            
 
             if (mediaType === 'video') {
                 $('.media').html(`<iframe width="560" height="315" src="${mediaUrl}" frameborder="0" allow="accelerometer; allowfullscreen=""></iframe>`)
